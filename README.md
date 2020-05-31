@@ -40,11 +40,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+SQL is the code written to create Relational Databases.
+
 - [ ] Why do tables need a `primary key`?
+Primary Keys give each item a number representation in order to make foreign keys for relationships it also helps normalize the database to prevent anomalies.
 
-- [ ] What is the name given to a table column that references the primary key on another table.
+- [ ] What is the name given to a table column that references the primary key on another table. 
+That is the Foreign Key I mentioned above
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+- [ ] What do we need in order to have a _many to many_ relationship between two tables. 
+
+We need a bridge table that makes a compound key or make the bridge table have it's own primary key if thing can have a relationship again.
 
 ## Minimum Viable Product
 
